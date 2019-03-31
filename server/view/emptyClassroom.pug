@@ -1,0 +1,44 @@
+doctype html
+html(lang="zh-CN")
+  head
+    title 今日空教室
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    link(rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css' integrity='sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u' crossorigin='anonymous')
+    script(src='https://cdn.bootcss.com/xlsx/0.14.1/xlsx.full.min.js' async)
+  body
+    header
+    main(class="container-fluid")
+      h2 今日空闲教室(#{date})
+      section(class="table-responsive")
+        table(class="table table-striped table-bordered info")
+          caption 14:00~18:00
+          thead
+            tr
+              td 教学楼
+              td 教室
+              td 教室类型
+              td 容量
+          tbody
+            each item in afternoonItems
+              tr
+                td #{item.location}
+                td #{item.roomName}
+                td #{item.type}
+                td #{item.size}
+      section(class="table-responsive")
+        table(class="table table-striped table-bordered info")
+          caption 18:30~22:30
+          thead
+            tr
+              td 教学楼
+              td 教室
+              td 教室类型
+              td 容量
+          tbody
+            each item in nightItems
+              tr
+                td #{item.location}
+                td #{item.roomName}
+                td #{item.type}
+                td #{item.size}
+    footer
