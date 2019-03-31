@@ -13,7 +13,7 @@ const handle = app.getRequestHandler()
 app
   .prepare()
   .then(() => {
-    const port = process.env.PORT || 1338
+    const port = process.env.PORT || 3000
     const server = new Koa()
     const router = new Router()
     server
@@ -28,10 +28,14 @@ app
       .get('/classroom', async ctx => {
         const actualPage = '/'
         let data = await fetchEmptyClassroom()
+        console.log(data)
         return app.render(ctx.req, ctx.res, actualPage, data)
       })
-      .get('*', ctx => {
-        return handle(ctx.req, ctx.res)
+      .get('*', async ctx => {
+        const actualPage = '/'
+        let data = await fetchEmptyClassroom()
+        console.log(data)
+        return app.render(ctx.req, ctx.res, actualPage, data)
       })
     server.listen(port, () => {
       console.log('server is running!!!')
