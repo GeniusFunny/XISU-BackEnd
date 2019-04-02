@@ -2,9 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b54cd002-6a13-4987-8471-a09bcdd7c04b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demos/react-app/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/sql/init.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/util/get-sql-content-map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/util/get-sql-map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/util/walk-file.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/BUILD_ID" beforeDir="false" afterPath="$PROJECT_DIR$/.next/BUILD_ID" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/react-loadable-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/react-loadable-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/records.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/records.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/pages-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/pages-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/records.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/records.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/cache/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/cache/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/dao/API_URL.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/constants/API_URL.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/dao/ClassroomDao.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/crawler/crawler-emptyclassroom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/dao/CookieDao.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/db/CookieDao.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/dao/CourseTableDao.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/crawler/crawler-CourseTableDao.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/dao/LoginDao.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/crawler/crawler-login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/dao/ScoreDao.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/crawler/crawler-score.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/dao/StdInfoDao.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/crawler/crawler-stdInfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/db/course.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/db/course.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/db/courseTable.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/db/courseTable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/db/score.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/db/score.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/db/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/db/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/getUserInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/crawler/getUserInfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/getUsers.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/crawler/getUsers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/crawler/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controller/EmptyClassroomController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controller/EmptyClassroomController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/dao/CourseTableDao.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/db/CourseTableDao.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/dao/ScoreDao.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/db/ScoreDao.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/service/ClassroomService.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/service/ClassroomService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/service/CourseTableService.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/service/CourseTableService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/service/LoginService.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/service/LoginService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/service/ScoreService.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/service/ScoreService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/service/StdInfoService.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/service/StdInfoService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/query.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/util/db.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/sleep.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/util/sleep.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -18,45 +54,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server/crawler/getUsers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="22" column="57" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
+            <state relative-caret-position="-451">
+              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
               <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/p_emptyClassroom/EmptyClassroomTable.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-                <element signature="e#398#493#0" />
-                <element signature="n#!!block;n#render#0;n#EmptyClassroomTable#0" />
+                <element signature="e#2408#2499#0" />
               </folding>
             </state>
           </provider>
@@ -65,37 +69,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
+            <state relative-caret-position="2548">
               <caret line="91" column="22" selection-start-line="91" selection-start-column="22" selection-end-line="91" selection-end-column="22" />
-              <folding>
-                <element signature="e#1946#2339#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/common/Header.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="515">
-              <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>u</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -112,6 +97,23 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/crawler/CookieDao.js" />
+        <option value="$PROJECT_DIR$/crawler/crawler-login.js" />
+        <option value="$PROJECT_DIR$/crawler/crawler-score.js" />
+        <option value="$PROJECT_DIR$/crawler/crawler-userInfo.js" />
+        <option value="$PROJECT_DIR$/server/crawler/index.js" />
+        <option value="$PROJECT_DIR$/server/util/get-sql-content-map.js" />
+        <option value="$PROJECT_DIR$/server/util/get-sql-map.js" />
+        <option value="$PROJECT_DIR$/server/db/CookieDao.js" />
+        <option value="$PROJECT_DIR$/server/util/db.js" />
+        <option value="$PROJECT_DIR$/server/util/walk-file.js" />
+        <option value="$PROJECT_DIR$/server/crawler/getUserInfo.js" />
+        <option value="$PROJECT_DIR$/server/sql/users.sql" />
+        <option value="$PROJECT_DIR$/server/crawler/crawler-score.js" />
+        <option value="$PROJECT_DIR$/server/sql/course.sql" />
+        <option value="$PROJECT_DIR$/server/index.js" />
+        <option value="$PROJECT_DIR$/server/sql/init.sql" />
+        <option value="$PROJECT_DIR$/server/crawler/getUsers.js" />
       </list>
     </option>
   </component>
@@ -140,6 +142,30 @@
               <item name="xisu-next" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="xisu-next" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xisu-next" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="crawler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xisu-next" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xisu-next" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xisu-next" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xisu-next" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="sql" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xisu-next" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xisu-next" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -154,9 +180,16 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
+  <component name="ReadonlyStatusHandler">
+    <option name="SHOW_DIALOG" value="false" />
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/server" />
+      <recent name="$PROJECT_DIR$/server/constants" />
+      <recent name="$PROJECT_DIR$/db" />
+      <recent name="$PROJECT_DIR$/crawler" />
+      <recent name="$PROJECT_DIR$/cache" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -199,22 +232,23 @@
       <option name="presentableId" value="Default" />
       <updated>1554005153720</updated>
       <workItem from="1554005154951" duration="2390000" />
-      <workItem from="1554009666926" duration="7400000" />
+      <workItem from="1554009666926" duration="8126000" />
+      <workItem from="1554186184851" duration="4776000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9790000" />
+    <option name="totallyTimeSpent" value="15292000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32961586" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32961586" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -222,7 +256,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32961586" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32961586" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -233,11 +267,7 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../demos/next-learn-demo/8-deploying/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-520" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../demos/next-learn-demo/8-deploying/server.js" />
     <entry file="file://$PROJECT_DIR$/pages/emptyClassroom.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -248,9 +278,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
+        <state relative-caret-position="532">
           <caret line="22" column="57" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
@@ -260,11 +297,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/components/p_emptyClassroom/EmptyClassroomTable.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
+        <state>
           <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
           <folding>
-            <element signature="e#0#25#0" expanded="true" />
-            <element signature="e#398#493#0" />
             <element signature="n#!!block;n#render#0;n#EmptyClassroomTable#0" />
           </folding>
         </state>
@@ -272,21 +307,68 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/components/common/Header.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
+        <state relative-caret-position="644">
           <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/server.js">
+    <entry file="file://$PROJECT_DIR$/server/db/CourseTableDao.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="91" column="22" selection-start-line="91" selection-start-column="22" selection-end-line="91" selection-end-column="22" />
-          <folding>
-            <element signature="e#1946#2339#0" />
-          </folding>
+        <state relative-caret-position="364">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/db/ScoreDao.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/service/ClassroomService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/constants/API_URL.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-75" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.next/server/static/development/pages/_document.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="486" column="103" selection-start-line="486" selection-start-column="103" selection-end-line="486" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/cache/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1316">
+          <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/db/CookieDao.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" selection-start-column="35" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/util/walk-file.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -297,17 +379,124 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/server/crawler/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        <state relative-caret-position="1568">
+          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
+    <entry file="file://$PROJECT_DIR$/server/crawler/getUserInfo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
+        <state relative-caret-position="787">
+          <caret line="42" column="7" lean-forward="true" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/crawler/crawler-CourseTableDao.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/crawler/crawler-emptyclassroom.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/crawler/getUsersWithProcessPool.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/sql/users.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/util/get-sql-map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/crawler/crawler-login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/crawler/crawler-stdInfo.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/util/get-sql-content-map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/sql/score.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret column="510" selection-start-column="509" selection-end-column="510" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/crawler/crawler-score.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="22" column="23" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/Sequence.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-542">
+          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/util/db.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/sql/course.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-799" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/sql/init.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="33" column="11" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/db/course.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2548">
+          <caret line="91" column="22" selection-start-line="91" selection-start-column="22" selection-end-line="91" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/crawler/getUsers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-451">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <element signature="e#2408#2499#0" />
+          </folding>
         </state>
       </provider>
     </entry>

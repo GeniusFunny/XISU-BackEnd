@@ -116,15 +116,30 @@
       "static/2VBCdC_ar3FD4YioaY2ga/pages/_document.js": 6,
       "static/2VBCdC_ar3FD4YioaY2ga/pages/_error.js": 7,
       "static/2VBCdC_ar3FD4YioaY2ga/pages/emptyClassroom.js": 8,
-      "static/2VBCdC_ar3FD4YioaY2ga/pages/index.js": 9
+      "static/2VBCdC_ar3FD4YioaY2ga/pages/index.js": 9,
+      "static/awoc2i5GHqn7fSG0ocLbR/pages/_app.js": 0,
+      "static/awoc2i5GHqn7fSG0ocLbR/pages/_document.js": 1,
+      "static/awoc2i5GHqn7fSG0ocLbR/pages/_error.js": 2,
+      "static/awoc2i5GHqn7fSG0ocLbR/pages/emptyClassroom.js": 3,
+      "static/awoc2i5GHqn7fSG0ocLbR/pages/index.js": 4,
+      "static/b7ZWg81huLeOuE2yml5ZW/pages/_app.js": 5,
+      "static/b7ZWg81huLeOuE2yml5ZW/pages/_document.js": 6,
+      "static/b7ZWg81huLeOuE2yml5ZW/pages/_error.js": 7,
+      "static/b7ZWg81huLeOuE2yml5ZW/pages/emptyClassroom.js": 8,
+      "static/b7ZWg81huLeOuE2yml5ZW/pages/index.js": 9,
+      "static/8BIsRYhrVx9SgWbho72Lc/pages/_app.js": 0,
+      "static/8BIsRYhrVx9SgWbho72Lc/pages/_document.js": 1,
+      "static/8BIsRYhrVx9SgWbho72Lc/pages/_error.js": 2,
+      "static/8BIsRYhrVx9SgWbho72Lc/pages/emptyClassroom.js": 3,
+      "static/8BIsRYhrVx9SgWbho72Lc/pages/index.js": 4
     },
     "bySource": {},
     "usedIds": [
-      5,
-      6,
-      7,
-      8,
-      9
+      0,
+      1,
+      2,
+      3,
+      4
     ]
   }
 }

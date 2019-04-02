@@ -1,6 +1,6 @@
 const login = require('../service/LoginService').LoginService
 const fetchClassroom = require('../service/ClassroomService').ClassroomService
-const hold = require('../../util/sleep').hold
+const hold = require('../util/sleep').hold
 
 async function fetchEmptyClassroom() {
   let date = new Date()

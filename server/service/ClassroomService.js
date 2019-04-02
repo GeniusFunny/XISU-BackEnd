@@ -1,5 +1,5 @@
-const ClassroomDao = require('../../crawler/dao/ClassroomDao').ClassroomDao
-const read = require('../../crawler/cache/index').read
+const ClassroomDao = require('../crawler/crawler-emptyclassroom').ClassroomDao
+const read = require('../cache').read
 
 async function ClassroomService(data, userId, cookie) {
   const field = `${data.cycleTime.dateBegin} ${data.timeBegin}-${data.timeEnd}`

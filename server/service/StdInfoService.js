@@ -1,4 +1,4 @@
-const StdInfoDao = require('../../crawler/dao/StdInfoDao').StdInfoDao
+const StdInfoDao = require('../crawler/crawler-stdInfo').StdInfoDao
 
 async function StdInfoService(cookie) {
 

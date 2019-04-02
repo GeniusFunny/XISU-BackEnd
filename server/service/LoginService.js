@@ -1,4 +1,4 @@
-const LoginDao = require('../../crawler/dao/LoginDao').LoginDao
+const LoginDao = require('../crawler/crawler-login').LoginDao
 async function LoginService(username, password) {
   try {
     let data = await LoginDao(username, password)

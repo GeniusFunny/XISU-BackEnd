@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[9],{QZHF:function(n,t,e){"use strict";e.r(t);var o=e("q1tI"),u=e.n(o),a=e("9UZN");t.default=function(){return u.a.createElement(a.a,null)}},z0md:function(n,t,e){(window.__NEXT_P=window.__NEXT_P||[]).push(["/emptyClassroom",function(){var n=e("QZHF");return{page:n.default||n}}])}},[["z0md",1,0]]]);

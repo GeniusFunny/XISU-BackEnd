@@ -1,4 +1,4 @@
-const CourseTableDao = require('../dao/CourseTableDao').fetchCourseTable
+const CourseTableDao = require('../db/CourseTableDao').fetchCourseTable
 async function CourseTableService(userId) {
   try {
     let data = await CourseTableDao(userId)
