@@ -3,44 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b54cd002-6a13-4987-8471-a09bcdd7c04b" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../demos/react-app/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/sql/init.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/util/get-sql-content-map.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/util/get-sql-map.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/util/walk-file.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/BUILD_ID" beforeDir="false" afterPath="$PROJECT_DIR$/.next/BUILD_ID" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/react-loadable-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/react-loadable-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/records.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/records.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/pages-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/pages-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/records.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/records.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/cache/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/cache/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/dao/API_URL.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/constants/API_URL.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/dao/ClassroomDao.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/crawler/crawler-emptyclassroom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/dao/CookieDao.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/db/CookieDao.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/dao/CourseTableDao.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/crawler/crawler-CourseTableDao.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/dao/LoginDao.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/crawler/crawler-login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/dao/ScoreDao.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/crawler/crawler-score.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/dao/StdInfoDao.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/crawler/crawler-stdInfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/db/course.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/db/course.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/db/courseTable.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/db/courseTable.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/db/score.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/db/score.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/db/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/db/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/getUserInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/crawler/getUserInfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/getUsers.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/crawler/getUsers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/crawler/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/controller/EmptyClassroomController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controller/EmptyClassroomController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/dao/CourseTableDao.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/db/CourseTableDao.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/dao/ScoreDao.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/db/ScoreDao.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/service/ClassroomService.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/service/ClassroomService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/service/CourseTableService.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/service/CourseTableService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/service/LoginService.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/service/LoginService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/service/ScoreService.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/service/ScoreService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/service/StdInfoService.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/service/StdInfoService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/query.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/util/db.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/sleep.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/util/sleep.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -108,12 +71,12 @@
         <option value="$PROJECT_DIR$/server/util/db.js" />
         <option value="$PROJECT_DIR$/server/util/walk-file.js" />
         <option value="$PROJECT_DIR$/server/crawler/getUserInfo.js" />
-        <option value="$PROJECT_DIR$/server/sql/users.sql" />
         <option value="$PROJECT_DIR$/server/crawler/crawler-score.js" />
         <option value="$PROJECT_DIR$/server/sql/course.sql" />
         <option value="$PROJECT_DIR$/server/index.js" />
         <option value="$PROJECT_DIR$/server/sql/init.sql" />
         <option value="$PROJECT_DIR$/server/crawler/getUsers.js" />
+        <option value="$PROJECT_DIR$/server/sql/users.sql" />
       </list>
     </option>
   </component>
@@ -136,35 +99,6 @@
             <path>
               <item name="xisu-next" type="b2602c69:ProjectViewProjectNode" />
               <item name="xisu-next" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xisu-next" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xisu-next" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xisu-next" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xisu-next" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="crawler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xisu-next" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xisu-next" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xisu-next" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xisu-next" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="sql" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xisu-next" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xisu-next" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -233,16 +167,15 @@
       <updated>1554005153720</updated>
       <workItem from="1554005154951" duration="2390000" />
       <workItem from="1554009666926" duration="8126000" />
-      <workItem from="1554186184851" duration="4776000" />
+      <workItem from="1554186184851" duration="5037000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15292000" />
+    <option name="totallyTimeSpent" value="15553000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -402,9 +335,6 @@
     <entry file="file://$PROJECT_DIR$/server/crawler/getUsersWithProcessPool.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/sql/users.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/util/get-sql-map.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -426,13 +356,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="519">
           <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/sql/score.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret column="510" selection-start-column="509" selection-end-column="510" />
         </state>
       </provider>
     </entry>
@@ -487,6 +410,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2548">
           <caret line="91" column="22" selection-start-line="91" selection-start-column="22" selection-end-line="91" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/sql/score.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret column="510" selection-start-column="509" selection-end-column="510" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/sql/users.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>
